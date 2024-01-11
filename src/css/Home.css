@@ -1,0 +1,16 @@
+.card:hover .foto {
+    transform: scale(1.5);
+    cursor: pointer;
+   }
+   
+   .card:hover .producttitle {
+    opacity: 1;
+   }
+   .foto {
+    transition: transform 1s;
+   }
+   
+   .producttitle {
+    transition: opacity 2s;
+   }
+   
