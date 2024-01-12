@@ -9,7 +9,7 @@ export default function Navbar() {
             <Link to="/">Logo</Link>
           </li>
           <li>
-            <Link to="/">
+            <Link to="/Contact">
               <button className="border-2 px-4 py-2 rounded-lg border-red-500  hover:bg-white hover:text-red-600 hover:border-red-600 transition-all ease-in duration-200 font-merriweather">
                 Contact Us
               </button>

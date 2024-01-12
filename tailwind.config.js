@@ -16,6 +16,8 @@ export default {
         widest: ".10em",
       },
       width: {
+   
+        100: "480px",
         120: "20rem",
         128: "25rem",
         130: "28rem",
