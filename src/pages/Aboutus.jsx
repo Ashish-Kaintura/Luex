@@ -3,6 +3,16 @@ import React, { useState } from "react";
 import video from "../video/aluxe rework 1.mp4";
 import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
+import "../css/aboutswiper.css";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+// import required modules
+import { FreeMode, Pagination, Autoplay } from "swiper/modules";
+
 // eslint-disable-next-line react/prop-types
 const FaqItem = ({ question, answer }) => {
   const [visible, setVisible] = useState(false);
@@ -206,7 +216,7 @@ export default function Aboutus() {
             </h2>
           </div>
           <div className="flex flex-wrap sm:justify-evenly justify-center gap-5 pt-12  ">
-            <div
+            {/* <div
               className="p-2 w-96 border-2 flex flex-col justify-center items-center rounded-lg hover:-translate-y-4 duration-200 transition-all ease-in bg-white "
               style={{
                 boxShadow: "0 8px 30px -7px #c9dff0",
@@ -289,8 +299,166 @@ export default function Aboutus() {
                   officia ducimus quis autem soluta nulla officiis? "
                 </p>
               </div>
-            </div>
+            </div> */}
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              freeMode={true}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[FreeMode, Pagination, Autoplay]}
+              autoplay={{
+                delay: 2500, // Set the delay in milliseconds between slides
+                disableOnInteraction: false, // Autoplay will not be disabled after user interactions
+              }}
+              className="mySwiper flex justify-center ps-4 py-2"
+              breakpoints={{
+                // when window width is <= 480px
+                480: {
+                  slidesPerView: 1,
+                  spaceBetween: 10,
+                },
+                // when window width is <= 768px
+                768: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+              }}
+            >
+              <SwiperSlide className="">
+                {" "}
+                <div
+                  className="p-2 w-96  border-2 flex flex-col justify-center items-center rounded-lg hover:-translate-y-4 duration-200 transition-all ease-in bg-white "
+                  style={{
+                    boxShadow: "0 8px 30px -7px #c9dff0",
+                  }}
+                >
+                  <div className="w-28 h-28 rounded-full border-2 overflow-hidden ">
+                    <img
+                      className=" hover:scale-110 transition-all ease-in duration-150"
+                      src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                      alt=""
+                      style={{
+                        boxShadow: "0 8px 30px -7px #c9dff0",
+                      }}
+                    />
+                  </div>
+                  <div className="text-center pt-5 text-sky-400 text-xl font-merriweather">
+                    <h1>Name</h1>
+                  </div>
+                  <div className="text-center px-5 pt-2 pb-5 font-merriweather ">
+                    <p>
+                      " Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit. Minima, possimus laboriosam saepe earum nostrum
+                      magni inventore quasi incidunt, vero laudantium deleniti
+                      sunt illo officia ducimus quis autem soluta nulla
+                      officiis? "
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="">
+                {" "}
+                <div
+                  className="p-2 w-96  border-2 flex flex-col justify-center items-center rounded-lg hover:-translate-y-4 duration-200 transition-all ease-in bg-white "
+                  style={{
+                    boxShadow: "0 8px 30px -7px #c9dff0",
+                  }}
+                >
+                  <div className="w-28 h-28 rounded-full border-2 overflow-hidden ">
+                    <img
+                      className=" hover:scale-110 transition-all ease-in duration-150"
+                      src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                      alt=""
+                      style={{
+                        boxShadow: "0 8px 30px -7px #c9dff0",
+                      }}
+                    />
+                  </div>
+                  <div className="text-center pt-5 text-sky-400 text-xl font-merriweather">
+                    <h1>Name</h1>
+                  </div>
+                  <div className="text-center px-5 pt-2 pb-5 font-merriweather ">
+                    <p>
+                      " Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit. Minima, possimus laboriosam saepe earum nostrum
+                      magni inventore quasi incidunt, vero laudantium deleniti
+                      sunt illo officia ducimus quis autem soluta nulla
+                      officiis? "
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="">
+                {" "}
+                <div
+                  className="p-2 w-96  border-2 flex flex-col justify-center items-center rounded-lg hover:-translate-y-4 duration-200 transition-all ease-in bg-white "
+                  style={{
+                    boxShadow: "0 8px 30px -7px #c9dff0",
+                  }}
+                >
+                  <div className="w-28 h-28 rounded-full border-2 overflow-hidden ">
+                    <img
+                      className=" hover:scale-110 transition-all ease-in duration-150"
+                      src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                      alt=""
+                      style={{
+                        boxShadow: "0 8px 30px -7px #c9dff0",
+                      }}
+                    />
+                  </div>
+                  <div className="text-center pt-5 text-sky-400 text-xl font-merriweather">
+                    <h1>Name</h1>
+                  </div>
+                  <div className="text-center px-5 pt-2 pb-5 font-merriweather ">
+                    <p>
+                      " Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit. Minima, possimus laboriosam saepe earum nostrum
+                      magni inventore quasi incidunt, vero laudantium deleniti
+                      sunt illo officia ducimus quis autem soluta nulla
+                      officiis? "
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="">
+                {" "}
+                <div
+                  className="p-2 w-96  border-2 flex flex-col justify-center items-center rounded-lg hover:-translate-y-4 duration-200 transition-all ease-in bg-white "
+                  style={{
+                    boxShadow: "0 8px 30px -7px #c9dff0",
+                  }}
+                >
+                  <div className="w-28 h-28 rounded-full border-2 overflow-hidden ">
+                    <img
+                      className=" hover:scale-110 transition-all ease-in duration-150"
+                      src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                      alt=""
+                      style={{
+                        boxShadow: "0 8px 30px -7px #c9dff0",
+                      }}
+                    />
+                  </div>
+                  <div className="text-center pt-5 text-sky-400 text-xl font-merriweather">
+                    <h1>Name</h1>
+                  </div>
+                  <div className="text-center px-5 pt-2 pb-5 font-merriweather ">
+                    <p>
+                      " Lorem ipsum, dolor sit amet consectetur adipisicing
+                      elit. Minima, possimus laboriosam saepe earum nostrum
+                      magni inventore quasi incidunt, vero laudantium deleniti
+                      sunt illo officia ducimus quis autem soluta nulla
+                      officiis? "
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
+        </section>
+        <section>
+          <div className="swiperdiv "></div>
         </section>
         <section>
           <div className="faq-section text-white bg-black pb-12 pt-5 px-2">

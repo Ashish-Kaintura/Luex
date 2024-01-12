@@ -56,7 +56,13 @@ export default function Contact() {
         <section className="py-10 bg-gray-300">
           <div className="relative sm:h-[45vh] h-[100vh] flex justify-center">
             <div className=" absolute sm:top-[-40%] top-[-10%] z-10 sm:left-[-2%] inset-0 flex flex-wrap justify-center">
-              <div className="sm:w-100 w-full sm:h-[420px] bg-white p-5">
+              <div
+                className="sm:w-100 w-full sm:h-[420px] bg-white p-5"
+                style={{
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
+                }}
+              >
                 <div>
                   <h1 className="text-xl text-red-600 font-sans">
                     Send us a Message
@@ -156,7 +162,13 @@ export default function Contact() {
                   </div>
                 </form>
               </div>
-              <div className="sm:w-100 w-full sm:h-[420px] bg-red-600 p-5">
+              <div
+                className="sm:w-100 w-full sm:h-[420px] bg-red-600 p-5"
+                style={{
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
+                }}
+              >
                 <div>
                   <h1 className="text-xl text-white font-sans">
                     Contact Information
@@ -226,12 +238,22 @@ export default function Contact() {
           </div>
         </section>
         <section className="py-2 bg-gray-300">
-          <div>
+          {/* <div>
             <h1 className="text-center">
               The ALUXE advantage means defining possibilities then streamlining
               each step thereafter. Meet our squad of aluminium experts today.
             </h1>
           </div>
+          <div>
+            <h1 className="text-center">
+              Submit a custom quote request through our online Enquiry Form
+              detailing your product type(s), quantity, dimensions, preferred
+              finish and any additional notes. We'll craft a personalized
+              proposal outlining availability, pricing, delivery and more. We
+              can't wait to team up on your next aluminium project! Let the
+              games begin here at ALUXE - your one-stop aluminium shop.
+            </h1>
+          </div> */}
         </section>
       </main>
       <Whatsapp />

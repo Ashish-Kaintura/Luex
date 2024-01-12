@@ -62,7 +62,7 @@ export default function Services() {
                 />
               </div>
               <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+                <h1 className="text-2xl font-robotoflex   pb-2">Streamlined, Tailor-Made Experiences</h1>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aspernatur in totam soluta repellendus. Placeat, assumenda!

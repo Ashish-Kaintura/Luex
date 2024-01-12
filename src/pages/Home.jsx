@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import "../css/Home.css";
 import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
-
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import the AOS styles
 const FaqItem = ({ question, answer }) => {
   const [visible, setVisible] = useState(false);
 
@@ -25,6 +26,8 @@ const FaqItem = ({ question, answer }) => {
     </div>
   );
 };
+AOS.init();
+
 export default function Home() {
   return (
     <div>
@@ -46,7 +49,7 @@ export default function Home() {
           </div>
           <div className="sm:pt-20 pt-12">
             <div className="flex flex-wrap justify-evenly px-6">
-              <div>
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <div
                   className="sm:w-64 sm:h-64 w-[160px] h-48 bg-white mt-4"
                   style={{
@@ -63,7 +66,7 @@ export default function Home() {
                   <h1>Product Name</h1>
                 </div>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <div
                   className="sm:w-64 sm:h-64 w-[160px] h-48 bg-white mt-4"
                   style={{
@@ -80,7 +83,7 @@ export default function Home() {
                   <h1>Product Name</h1>
                 </div>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <div
                   className="sm:w-64 sm:h-64 w-[160px] h-48 bg-white mt-4"
                   style={{
@@ -97,7 +100,7 @@ export default function Home() {
                   <h1>Product Name</h1>
                 </div>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-duration="1000">
                 <div
                   className="sm:w-64 sm:h-64 w-[160px] h-48 bg-white mt-4"
                   style={{
@@ -116,7 +119,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="pt-12 flex justify-center">
+          <div
+            className="pt-12 flex justify-center"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <button className="cursor-pointer group relative flex gap-1.5 px-8 py-4 bg-red-700 bg-opacity-100 text-[#f1f1f1] rounded-3xl hover:bg-opacity-70 transition font-semibold shadow-md">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -159,6 +166,8 @@ export default function Home() {
               <div
                 className="sm:w-[550px] overflow-hidden border-4 bg-gray-200 rounded-lg "
                 style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
+                data-aos="zoom-in"
+                data-aos-duration="1000"
               >
                 <img
                   className="hover:scale-125 transition-all ease-in duration-200"
@@ -179,6 +188,8 @@ export default function Home() {
                     boxShadow:
                       "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
                   }}
+                  data-aos="zoom-in"
+                  data-aos-duration="1000"
                 >
                   <div className="sm:w-64 w-64 h-38 border-2 bg-white overflow-hidden">
                     <img
@@ -196,6 +207,8 @@ export default function Home() {
                     boxShadow:
                       "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
                   }}
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
                 >
                   <div className="sm:w-64 w-64 h-38 border-2 bg-white overflow-hidden">
                     <img
@@ -213,6 +226,8 @@ export default function Home() {
                     boxShadow:
                       "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
                   }}
+                  data-aos="zoom-in"
+                  data-aos-duration="3000"
                 >
                   <div className="sm:w-64 w-64 h-38 border-2 bg-white overflow-hidden">
                     <img
@@ -227,19 +242,16 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-12 flex justify-center">
-                <button className="cursor-pointer flex gap-1.5 px-8 py-4 bg-black bg-opacity-100 text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 transition font-semibold shadow-md">
+              <Link to={"/Products"}> <button className="cursor-pointer flex gap-1.5 px-8 py-4 bg-black bg-opacity-100 text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 transition font-semibold shadow-md">
                   View All
-                </button>
+                </button></Link> 
               </div>
             </div>
           </div>
         </section>
         <section className="py-20 relative">
           <div className=" absolute inset-0">
-            <svg
-              xmlnsnclassName="http://www.w3.org/2000/svg"
-              viewBox="0 0 1440 320"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
                 fill="#CC1704"
                 fillOpacity="1"
@@ -254,7 +266,12 @@ export default function Home() {
             </h1>
           </div>
           <div className="sm:px-5 py-12 flex flex-wrap justify-center gap-5 overflow-x-hidden">
-            <div className="w-64">
+            <div
+              className="w-64"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="500"
+            >
               <div className="w-64 h-64 border-2">
                 <img
                   src="images/WhatsApp Image 2023-12-05 at 11.10.19_77c9a0eb-PhotoRoom.png-PhotoRoom.png"
@@ -265,8 +282,12 @@ export default function Home() {
                 <h1>Product Name</h1>
               </div>
             </div>
-
-            <div className="w-64">
+            <div
+              className="w-64"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="600"
+            >
               <div className="w-64 h-64 border-2">
                 <img
                   src="images/WhatsApp Image 2023-12-05 at 11.10.19_77c9a0eb-PhotoRoom.png-PhotoRoom.png"
@@ -277,7 +298,12 @@ export default function Home() {
                 <h1>Product Name</h1>
               </div>
             </div>
-            <div className="w-64">
+            <div
+              className="w-64"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="700"
+            >
               <div className="w-64 h-64 border-2">
                 <img
                   src="images/WhatsApp Image 2023-12-05 at 11.10.19_77c9a0eb-PhotoRoom.png-PhotoRoom.png"
@@ -288,7 +314,12 @@ export default function Home() {
                 <h1>Product Name</h1>
               </div>
             </div>
-            <div className="w-64">
+            <div
+              className="w-64"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="800"
+            >
               <div className="w-64 h-64 border-2">
                 <img
                   src="images/WhatsApp Image 2023-12-05 at 11.10.19_77c9a0eb-PhotoRoom.png-PhotoRoom.png"
@@ -299,7 +330,12 @@ export default function Home() {
                 <h1>Product Name</h1>
               </div>
             </div>
-            <div className="w-64">
+            <div
+              className="w-64"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="900"
+            >
               <div className="w-64 h-64 border-2">
                 <img
                   src="images/WhatsApp Image 2023-12-05 at 11.10.19_77c9a0eb-PhotoRoom.png-PhotoRoom.png"
@@ -311,8 +347,12 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" relative flex justify-center">
-            <Link to={""}>
+          <div
+            className=" relative flex justify-center"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <Link to={"/Products"}>
               <button className="border-2 px-6 py-4 rounded-2xl bg-red-600 text-white font-sans shadow-2xl cursor-pointer hover:opacity-100 opacity-90 transition-all ease-in duration-150">
                 View More
               </button>
@@ -330,7 +370,11 @@ export default function Home() {
             <div className="h-[2px] w-64 bg-black"></div>
           </div>
           <div className="flex justify-center gap-6 flex-wrap pt-20">
-            <div className="card">
+            <div
+              className="card"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+            >
               <div className="w-64 h-64 bg-white rounded-full flex justify-center text-center p-8 subcard overflow-hidden">
                 <img
                   className="foto"
@@ -342,7 +386,11 @@ export default function Home() {
                 <h1 className="producttitle opacity-0 bg">Product Name</h1>
               </div>
             </div>
-            <div className="card">
+            <div
+              className="card"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+            >
               <div className="w-64 h-64 bg-white rounded-full flex justify-center text-center p-8 subcard overflow-hidden">
                 <img
                   className="foto"
@@ -354,7 +402,11 @@ export default function Home() {
                 <h1 className="producttitle opacity-0 bg">Product Name</h1>
               </div>
             </div>
-            <div className="card">
+            <div
+              className="card"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+            >
               <div className="w-64 h-64 bg-white rounded-full flex justify-center text-center p-8 subcard overflow-hidden">
                 <img
                   className="foto"
@@ -366,7 +418,11 @@ export default function Home() {
                 <h1 className="producttitle opacity-0 bg">Product Name</h1>
               </div>
             </div>
-            <div className="card">
+            <div
+              className="card"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+            >
               <div className="w-64 h-64 bg-white rounded-full flex justify-center text-center p-8 subcard overflow-hidden">
                 <img
                   className="foto"
@@ -378,7 +434,11 @@ export default function Home() {
                 <h1 className="producttitle opacity-0 bg">Product Name</h1>
               </div>
             </div>
-            <div className="card">
+            <div
+              className="card"
+              data-aos="zoom-out-up"
+              data-aos-duration="1000"
+            >
               <div className="w-64 h-64 bg-white rounded-full flex justify-center text-center p-8 subcard overflow-hidden">
                 <img
                   className="foto"
@@ -417,7 +477,7 @@ export default function Home() {
         </section>
       </main>
       <Footer />
-      <Whatsapp/>
+      <Whatsapp />
     </div>
   );
 }
