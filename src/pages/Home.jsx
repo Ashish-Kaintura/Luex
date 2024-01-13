@@ -242,9 +242,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-12 flex justify-center">
-              <Link to={"/Products"}> <button className="cursor-pointer flex gap-1.5 px-8 py-4 bg-black bg-opacity-100 text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 transition font-semibold shadow-md">
-                  View All
-                </button></Link> 
+                <Link to={"/Products"}>
+                  {" "}
+                  <button className="cursor-pointer flex gap-1.5 px-8 py-4 bg-black bg-opacity-100 text-[#f1f1f1] rounded-3xl hover:bg-opacity-90 transition font-semibold shadow-md">
+                    View All
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -458,20 +461,21 @@ export default function Home() {
               Frequently Asked Questions
             </h2>
             <FaqItem
-              question="What is React JS?"
-              answer="React JS is an open-source JavaScript library for building user interfaces, especially for single-page applications. It was developed by Facebook and is widely used in the development of modern web applications."
+              question=" What makes ALUXE aluminum experts?"
+              answer="We geek out hard on all things aluminum. Metallurgy, manufacturing techniques, anodizing - we love it all! Our team has ridiculous combined aluminum experience from across the industry. We're kind of aluminum know-it-alls (but in a good way)."
             />
             <FaqItem
-              question="What are the benefits of using React JS?"
-              answer="React JS offers several benefits such as component-based architecture, reusable UI components, faster rendering, and efficient handling of state changes. These features lead to more efficient, scalable, and maintainable code."
+              question="Why should I trust ALUXE for my first aluminum buy?"
+              answer="Don't just take our word for it - check our 5 star customer reviews! We've helped hundreds of first-timers fall in love with hassle-free aluminum purchasing. Give us one order and we promise you'll stick around. "
             />
             <FaqItem
-              question="Is React JS the same as Angular JS or Vue JS?"
-              answer="No, React JS is a different JavaScript library for building user interfaces. However, it shares some similarities with other popular libraries like Angular JS and Vue JS, as they are all designed to handle complex UI rendering tasks in a more efficient manner."
+              question=" Does ALUXE really offer reliable shipping and order support?"
+              answer="You betcha! We have an awesome logistics team focused on getting orders RIGHT and on time. We also have aluminum-obsessed customer support ready to answer any material questions. Buy with total peace of mind.  
+              "
             />
             <FaqItem
-              question="Can React JS be used for building mobile applications?"
-              answer="While React JS is primarily used for building web applications, it can also be used to create mobile applications using tools like React Native. React Native allows developers to build native mobile applications for iOS and Android using only JavaScript."
+              question="What's with the weird name? What does ALUXE even mean?"
+              answer="ALUXE mashes up aluminum and deluxe because that's what we provide - luxury aluminum purchasing! The name reminds us everyday to offer our clients nothing less than aluminum excellence."
             />
           </div>
         </section>
