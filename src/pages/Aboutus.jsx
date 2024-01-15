@@ -93,12 +93,12 @@ export default function Aboutus() {
         <section>
           <div className="bg-gray-100 py-12">
             <div className="flex flex-wrap  sm:justify-between justify-center p-10 items-center">
-              <div className="w-[50%]">
+              <div className="sm:w-[50%]">
                 <div className="sm:w-[450px] p-5">
                   <video loop muted src={video}></video>
                 </div>
               </div>
-              <div className="w-[50%]">
+              <div className="sm:w-[50%]">
                 <div className="py-8">
                   <h1 className="font-garamond text-5xl pb-8 sm:text-end text-center text-red-600">
                     What We Do
@@ -210,8 +210,13 @@ export default function Aboutus() {
               <div className="bg-white py-5 w-96 px-2">
                 <h1 className="text-2xl font-robotoflex   pb-2">Our Value</h1>
                 <p>
-                  Value #1: Aluminum Obsession Value #2: Quality Fanatics Value
-                  #3: Customer Delight Value #4: Metal Community
+                  Aluminum Passion: We're obsessed with aluminum—its properties,
+                  manufacturing, and all things metal. Quality Mastery:
+                  Meticulously ensuring metal magic in every product. Customer
+                  Delight: Your joy is our mission, from seamless purchases to
+                  top-notch service. Metal Community: Building connections with
+                  experts, creators, and manufacturers for shared insights and
+                  opportunities.
                 </p>
               </div>
             </div>

@@ -160,7 +160,7 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="sm:py-20 py-8 bg-[#CC1704]">
+        <section className="sm:py-20 py-8 bg-[#CC1704] relative">
           <div className="flex flex-wrap sm:justify-between justify-center items-center p-5">
             <div className="sm:flex hidden justify-center">
               <div
@@ -252,7 +252,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20 relative">
+        <section className="py-28 relative">
           <div className=" absolute inset-0">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
               <path
@@ -351,7 +351,7 @@ export default function Home() {
             </div>
           </div>
           <div
-            className=" relative flex justify-center"
+            className=" relative flex justify-center pb-8"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -360,6 +360,15 @@ export default function Home() {
                 View More
               </button>
             </Link>
+          </div>
+          <div className=" absolute top-[62%] inset-0 ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+              <path
+                fill="#CC1704"
+                fillOpacity="1"
+                d="M0,192L1440,288L1440,320L0,320Z"
+              ></path>
+            </svg>
           </div>
         </section>
         <section className="py-20 bg-[#DADADA]">

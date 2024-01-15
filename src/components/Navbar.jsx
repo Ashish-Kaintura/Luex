@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
@@ -23,16 +24,16 @@ export default function Navbar() {
           style={{ boxShadow: "rgba(0, 0, 0, 0.16) 0px 1px 4px" }}
         >
           <li className="hover:text-red-600 border-b-2 border-[whitesmoke] rounded-sm  py-1 hover:border-b-red-400 transition-all ease-in duration-200">
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li className="hover:text-red-600 border-b-2 border-[whitesmoke] rounded-sm  py-1 hover:border-b-red-400 transition-all ease-in duration-200">
-            <Link to="/Aboutus">About Us</Link>
+            <NavLink to="/Aboutus">About Us</NavLink>
           </li>
           <li className="hover:text-red-600 border-b-2 border-[whitesmoke] rounded-sm  py-1 hover:border-b-red-400 transition-all ease-in duration-200">
-            <Link to="/Services">Services</Link>
+            <NavLink to="/Services">Services</NavLink>
           </li>
           <li className="hover:text-red-600 border-b-2 border-[whitesmoke] rounded-sm  py-1 hover:border-b-red-400 transition-all ease-in duration-200">
-            <Link to="/Products">Products</Link>
+            <NavLink to="/Products">Products</NavLink>
           </li>
         </ul>
       </nav>

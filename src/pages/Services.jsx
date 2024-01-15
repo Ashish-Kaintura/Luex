@@ -206,7 +206,7 @@ export default function Services() {
         </section>
         <section className="pt-20 pb-10 bg-gray-100">
           <div className="">
-            <div className="flex justify-between p-10 items-center">
+            <div className="flex flex-wrap sm:justify-between justify-center p-10 items-center">
               <div>
                 <div className="py-8">
                   <h1 className="font-garamond text-5xl pb-8">
@@ -241,9 +241,9 @@ export default function Services() {
                 </div>
               </div>
               <div className="block justify-center">
-                <div className="flex gap-8 my-2">
+                <div className="flex justify-center gap-8 my-2">
                   <div
-                    className="border-2 w-64 h-64 rounded-xl shadow-3xl"
+                    className="border-2 sm:w-64 sm:h-64 w-48 rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
@@ -256,7 +256,7 @@ export default function Services() {
                   </div>
 
                   <div
-                    className="border-2 w-64 h-64 rounded-xl shadow-3xl"
+                    className="border-2 sm:w-64 sm:h-64 w-48 rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
@@ -270,7 +270,7 @@ export default function Services() {
                 </div>
                 <div className="flex gap-8 my-2">
                   <div
-                    className="border-2 w-64 h-64 rounded-xl shadow-3xl"
+                    className="border-2 sm:w-64 sm:h-64 w-48  rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
@@ -282,7 +282,7 @@ export default function Services() {
                     />
                   </div>
                   <div
-                    className="border-2 w-64 h-64 rounded-xl shadow-3xl"
+                    className="border-2sm:w-64 sm:h-64 w-48 f rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
