@@ -37,18 +37,18 @@ export default function Services() {
               Services you get with us
             </h1>
             <h2 className="font-cormorantgaramond pt-3 text-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque in
-              saepe reprehenderit, amet odio aliquam omnis vel aperiam dolor
-              esse soluta.
+              Tired of lackluster customer service and unreliable product
+              delivery plaguing your aluminum purchases? We fully understand the
+              frustration. ALUXE was created to right those wrongs through our
             </h2>
             <h3 className="font-cormorantgaramond pt-1 text-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque in
-              saepe reprehenderit,
+              suite of value-driven services designed to simplify and enhance
+              your experience.
             </h3>
           </div>
           <div className="flex flex-wrap sm:justify-evenly justify-center sm:pt-12 z-[10] gap-5">
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -61,19 +61,21 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Streamlined, Tailor-Made Experiences</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex   pb-2">
+                  We Offer Unparalleled Product Customization
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  With our broad product portfolio, you can choose the best
+                  aluminum products that suit your preferences. Modify the
+                  dimensions, finishes and configurations to design unique
+                  railings, partitions and sliding walls that fit your exact
+                  needs.
                 </p>
               </div>
             </div>
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -86,19 +88,21 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex pb-2">
+                  We Lift the Legwork While You Reap Rewards
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  Leave the ping-pong match behind. We handle the tedious
+                  back-and-forth communication with manufacturers so you don’t
+                  have to. Lean on our established industry relationships and
+                  streamlined quoting process while enjoying wholesale pricing
+                  advantages.
                 </p>
               </div>
             </div>
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -111,19 +115,20 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex   pb-2">
+                  We Pass Convenience and Reliability Straight to You
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  Our intuitive online shopping experience consolidates aluminum
+                  browsing, custom ordering, and purchasing into one seamless
+                  process. Accurately configure projects in real time while
+                  checking stock availability in just a few clicks.
                 </p>
               </div>
             </div>
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -136,19 +141,21 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex   pb-2">
+                  We Offer White Glove Delivery and Installation
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  Take full service to the next level with our optional White
+                  Glove delivery and installation. Let our skilled team handle
+                  the entire process from coordinating courier services to
+                  managing product transfers and carrying out full
+                  start-to-finish installation.
                 </p>
               </div>
             </div>
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -161,19 +168,19 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex   pb-2">
+                  We Pride Ourselves on Premium Design Services
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  Stuck envisioning the perfect layout? Our in-house design
+                  experts offer complementary consultations, 3D renderings, and
+                  layout illustrations to crystallize project visions.
                 </p>
               </div>
             </div>
             <div
-              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden"
+              className=" hover:-translate-y-4 duration-200 transition-all ease-in rounded-t-2xl overflow-hidden h-100 bg-[#FEFEFE] w-96"
               style={{
                 boxShadow:
                   "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -186,14 +193,16 @@ export default function Services() {
                   alt=""
                 />
               </div>
-              <div className="bg-white py-5 w-96 px-2">
-                <h1 className="text-2xl font-robotoflex   pb-2">Services</h1>
+              <div className=" py-5  rounded-b-lg  px-2">
+                <h1 className="text-2xl font-robotoflex   pb-2">
+                  We Provide Unparalleled Customer Service and Support
+                </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Aspernatur in totam soluta repellendus. Placeat, assumenda!
-                  Animi velit tempora doloribus veritatis praesentium natus
-                  quibusdam distinctio, nulla, nihil, maiores aspernatur?
-                  Libero, excepturi?
+                  We don’t just deliver premium products – we offer an
+                  exceptional experience from inquiry to installation and
+                  beyond. Rely on our aluminum specialists for tailored guidance
+                  every step while monitoring order status through proactive
+                  tracking updates
                 </p>
               </div>
             </div>
@@ -207,7 +216,7 @@ export default function Services() {
         <section className="pt-20 pb-10 bg-gray-100">
           <div className="">
             <div className="flex flex-wrap sm:justify-between justify-center p-10 items-center">
-              <div>
+              <div className="sm:w-[50%]">
                 <div className="py-8">
                   <h1 className="font-garamond text-5xl pb-8">
                     <span className="text-red-600">Why</span> Choose Our
@@ -215,33 +224,71 @@ export default function Services() {
                   </h1>
                 </div>
                 <div>
-                  <p className="text-normal text-black">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing sed do
-                    sed do eiusmod tempor eiusmod temporF dolore magna aliqua.
-                  </p>
-                  <p className="text-normal text-black">
-                    dolor sit amet, consectetur adipiscing elit tempor sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-                  <p className="text-normal text-black">
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut sed do eiusmod tempor labore et dolore magna
-                    aliqua.
-                  </p>
-                  <p className="text-normal text-black">
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut sed do eiusmod tempor labore et dolore magna
-                    aliqua.
-                  </p>
-                  <p className="text-normal text-black">
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut sed do eiusmod tempor labore et dolore magna
-                    aliqua.
-                  </p>
+                  <div>
+                    <h1 className="pb-2 font-sans text-xl font-semibold">
+                      Unmatched Quality Control
+                    </h1>
+                    <li className="text-normal text-black">
+                      All products hand-selected & rigorously tested for safety
+                      and longevity
+                    </li>
+                    <li className="text-normal text-black">
+                      Thorough factory audits guarantee only premium components
+                      used
+                    </li>
+                    <li className="text-normal text-black">
+                      Strict performance benchmarks products must meet
+                      pre-approval
+                    </li>
+                  </div>
+                  <div>
+                    <h1 className="pb-2 font-sans text-xl font-semibold pt-2">
+                      Extreme Customization Capabilities
+                    </h1>
+                    <li className="text-normal text-black">
+                      Customize dimensions, finishes and configurations
+                    </li>
+                    <li className="text-normal text-black">
+                      In-house design team translates unique visions into
+                      reality
+                    </li>
+                    <li className="text-normal text-black">
+                      All specialty orders accommodated; sky's the limit
+                    </li>
+                  </div>
+                  <div>
+                    <h1 className="pb-2 font-sans text-xl font-semibold pt-2">
+                      White Glove Delivery & Installation
+                    </h1>
+                    <li className="text-normal text-black">
+                      Full service optional delivery and installation.
+                    </li>
+                    <li className="text-normal text-black">
+                      A professional team handles the process from start to
+                      finish.
+                    </li>
+                    <li className="text-normal text-black">
+                      Continuous process from order to working product
+                    </li>
+                  </div>
+                  <div>
+                    <h1 className="pb-2 font-sans text-xl font-semibold pt-2">
+                      Unrivaled Customer Experience
+                    </h1>
+                    <li className="text-normal text-black">
+                      Personalized guidance throughout entire process
+                    </li>
+                    <li className="text-normal text-black">
+                      Proactive tracking and active delivery communication.
+                    </li>
+                    <li className="text-normal text-black">
+                      Specialist team gladly helps with any questions/concerns
+                    </li>
+                  </div>
                 </div>
               </div>
-              <div className="block justify-center">
-                <div className="flex justify-center gap-8 my-2">
+              <div className="block justify-center sm:w-[50%]">
+                <div className="flex justify-around sm:gap-0 gap-4">
                   <div
                     className="border-2 sm:w-64 sm:h-64 w-48 rounded-xl shadow-3xl"
                     style={{
@@ -268,9 +315,9 @@ export default function Services() {
                     />
                   </div>
                 </div>
-                <div className="flex gap-8 my-2">
+                <div className="flex justify-around mt-6 sm:gap-0 gap-4">
                   <div
-                    className="border-2 sm:w-64 sm:h-64 w-48  rounded-xl shadow-3xl"
+                    className="border-2 sm:w-64 sm:h-64 w-48 rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
@@ -281,8 +328,9 @@ export default function Services() {
                       alt=""
                     />
                   </div>
+
                   <div
-                    className="border-2sm:w-64 sm:h-64 w-48 f rounded-xl shadow-3xl"
+                    className="border-2 sm:w-64 sm:h-64 w-48 rounded-xl shadow-3xl"
                     style={{
                       boxShadow:
                         "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,rgba(0, 0, 0, 0.3) 0px 30px 60px -30px",
@@ -304,26 +352,27 @@ export default function Services() {
               Frequently Asked Questions
             </h2>
             <FaqItem
-              question="What is React JS?"
-              answer="React JS is an open-source JavaScript library for building user interfaces, especially for single-page applications. It was developed by Facebook and is widely used in the development of modern web applications."
+              question="How many aluminum products does ALUXE actually stock?  "
+              answer="A gazillion! Well actually over 5,000 SKUs and counting. From architectural cladding to precision machined components, we've got all your needs covered. Browse our online catalog now and get ready to drool!"
             />
             <FaqItem
-              question="What are the benefits of using React JS?"
-              answer="React JS offers several benefits such as component-based architecture, reusable UI components, faster rendering, and efficient handling of state changes. These features lead to more efficient, scalable, and maintainable code."
+              question="Who are ALUXE's clients and what do they rave about most?  "
+              answer="Ourqueryset tells us they love the convenience of our intuitive website, rapid order processing, and responsive customer support. From global corporations to indie makers, we make procurement sweet for all levels of buyers."
             />
             <FaqItem
-              question="Is React JS the same as Angular JS or Vue JS?"
-              answer="No, React JS is a different JavaScript library for building user interfaces. However, it shares some similarities with other popular libraries like Angular JS and Vue JS, as they are all designed to handle complex UI rendering tasks in a more efficient manner."
+              question="What types of customization are possible with your aluminum products?"
+              answer="The possibilities are nearly endless! We offer full customization of dimensions, finishes, configurations, and more. Tell us what you're envisioning and our design team will make it a reality - any style railing, partition layout, sliding wall aesthetic, or specialty creation you desire, we can customize it. Feel free to get creative!"
             />
             <FaqItem
-              question="Can React JS be used for building mobile applications?"
-              answer="While React JS is primarily used for building web applications, it can also be used to create mobile applications using tools like React Native. React Native allows developers to build native mobile applications for iOS and Android using only JavaScript."
+              question="Do you provide installation services?  "
+              answer="For added convenience, we offer optional White Glove installation by our highly skilled aluminum craftsmen. Simply let us know at checkout if you'd like us to handle to complete start-to-finish process - from delivery coordination to materials transport, full assembly, and finalizing any finishing touches to perfection. We'll translate your order into fully-functioning installations.
+              "
             />
           </div>
         </section>
       </main>
       <Footer />
-      <Whatsapp/>
+      <Whatsapp />
     </>
   );
 }

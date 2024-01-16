@@ -105,7 +105,7 @@ export default function Aboutus() {
                   </h1>
                 </div>
                 <div>
-                  <p className="text-normal text-black">
+                  <p className="text-normal text-black text-xl font-semibold">
                     Ready to discover everything ALUXE has redefined? Let’s
                     huddle up.
                   </p>
